@@ -46,14 +46,14 @@ void display()
     if(front<=rear)
     {
         for(i=front;i<=rear;i++)
-        printf("%d",q[i]);
+        printf("%d ",q[i]);
     }
     else
     {
         for(i=front;i<5;i++)
-        printf("%d",q[i]);
+        printf("%d ",q[i]);
        for(i=0;i<=rear;i++)
-        printf("%d",q[i]);
+        printf("%d ",q[i]);
     }
 }
 void main()
